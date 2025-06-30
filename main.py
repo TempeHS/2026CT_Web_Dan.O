@@ -27,6 +27,16 @@ def questions():
     return render_template('questions.html'), 200
 
 
+@app.route('/tutoring.html')
+def tutoring():
+    return render_template('tutoring.html'), 200
+
+
+@app.route('/BS.html')
+def BS():
+    return render_template('BS.html'), 200
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

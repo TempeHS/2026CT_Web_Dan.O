@@ -1,3 +1,16 @@
 .navbar-brand img {
   height: 70px;
 }
+
+<button
+  class="btn btn-outline-success"
+  type="submit"
+  > Search</button
+  > .navbar {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+.basic-3:hover {
+  transform: scale(1.2);
+}

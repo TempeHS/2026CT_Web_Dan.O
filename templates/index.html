@@ -1,5 +1,44 @@
 {% extends 'layout.html' %} {% block content %}
 {%include"partials/slider.html"%}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(
+          270deg,
+          red,
+          orange,
+          yellow,
+          green,
+          blue,
+          indigo,
+          violet
+        );
+        background-size: 1400% 1400%;
+        animation: rainbow 20s linear infinite;
+      }
+
+      @keyframes rainbow {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body></body>
+</html>
+
 <div class="container">
   <div class="row">
     <p></p>
@@ -30,8 +69,9 @@
         <img src="static/images/Mingus.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
+            Charles Mingus’s Mingus Ah Um, released in 1959, is a bold and
+            eclectic jazz masterpiece that blends gospel, blues, swing, and
+            avant-garde elements into a deeply personal musical statement.
           </p>
         </div>
       </div>
@@ -45,23 +85,21 @@
         />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
+            A Tribe Called Quest’s The Low End Theory is a groundbreaking 1991
+            hip-hop album that fused jazzy instrumentation with stripped-down
+            beats and laid the foundation for jazz rap.
           </p>
         </div>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card" style="width: 18rem">
-        <img
-          src="static/images/tribe_called_quest.png"
-          class="card-img-top"
-          alt="..."
-        />
+        <img src="/static/images/4:Am.png" class="card-img-top" alt="..." />
         <div class="card-body">
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
+            “4:00AM” by Taeko Ohnuki is a delicate and emotionally rich ballad
+            that captures the quiet vulnerability of the early morning hours.
+            Set against the stillness before dawn.
           </p>
         </div>
       </div>
