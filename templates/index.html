@@ -11,33 +11,52 @@
         height: 100vh;
         background: linear-gradient(
           270deg,
-          red,
+          rgb(207, 125, 32),
           orange,
-          yellow,
-          green,
-          blue,
-          indigo,
-          violet
+          rgb(230, 175, 73),
+          rgb(226, 184, 129),
+          rgb(238, 155, 30),
+          rgb(226, 136, 63),
+          rgb(233, 144, 42)
         );
         background-size: 1400% 1400%;
         animation: rainbow 20s linear infinite;
-      }
-
-      @keyframes rainbow {
-        0% {
-          background-position: 0% 50%;
-        }
-        50% {
-          background-position: 100% 50%;
-        }
-        100% {
-          background-position: 0% 50%;
-        }
       }
     </style>
   </head>
   <body></body>
 </html>
+
+<style>
+  .rainbowbutton {
+    margin: 0;
+    height: 5vh;
+    background: linear-gradient(
+      270deg,
+      rgb(207, 125, 32),
+      orange,
+      rgb(230, 175, 73),
+      rgb(226, 184, 129),
+      rgb(238, 155, 30),
+      rgb(226, 136, 63),
+      rgb(233, 144, 42)
+    );
+    background-size: 1400% 1400%;
+    animation: rainbow 20s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+</style>
 
 <div class="container">
   <div class="row">
@@ -49,7 +68,7 @@
         <div class="card-body">
           <h5 class="card-title">{{card [0]}}</h5>
           <p class="card-text">{{card [1]}}</p>
-          <a href="#" class="btn btn-primary">{{card [2]}}</a>
+          <a href="#" class="btn btn-primary rainbowbutton">{{card [2]}}</a>
         </div>
       </div>
     </div>
