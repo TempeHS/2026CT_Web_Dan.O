@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     card_data = (
         ("Saxophone", "saxophones", "come for saxophones", "static/images/Card_1.png"),
-        ("Learn Saxophone", "Want to learn how to play saxophone", "Click for topic", "static/images/Card_2.png"),
+        ("Learn Saxophone", "Want to learn how to play saxophone", "Click for skills", "static/images/Card_2.png"),
         ("Basic skills", "Why a saxophone will fix your life", "I'll help you", "static/images/Card_6.png"),
         ("Music Theory", "Want to basic music knowledge", "come for saxophones", "static/images/Card_3.png"),
         ("Bands", "How saxophones shaped jazz bands", "come for saxophones", "static/images/Card_5.png"),
